@@ -1,0 +1,22 @@
+2023-03-30T22:43:40+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "team_init" not found or invalid function name in C:\xampp\htdocs\WP\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\WP\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\WP\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\WP\wp-settings.php(617): do_action('init')
+#3 C:\xampp\htdocs\WP\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\WP\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\WP\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\WP\wp-includes\class-wp-hook.php on line 308
+
+2023-03-30T22:45:41+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "team_init" not found or invalid function name in C:\xampp\htdocs\WP\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\WP\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\WP\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\WP\wp-settings.php(617): do_action('init')
+#3 C:\xampp\htdocs\WP\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\WP\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\WP\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\WP\wp-includes\class-wp-hook.php on line 308
+
